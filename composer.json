@@ -1,0 +1,16 @@
+{
+    "name": "combell-nl/combell-api",
+    "description": "Combell public API for customers with direct activation",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
